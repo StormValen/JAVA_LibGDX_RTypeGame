@@ -38,10 +38,12 @@ public class EnemyManager extends Actor{
     public Enemy CreateEnemy(float x, float y){
         float randomIndex = (float)Math.random()*100;
         System.out.print(randomIndex);
-        if(randomIndex<50){
+        if(randomIndex<33){
             return new EnemyStraight(myAssetsManager.enemyStraight,100,x,y);
-        }else if(randomIndex>=50){
+        }else if(randomIndex>=66){
             return new EnemyZigZag(myAssetsManager.enemyZigZag,100,50,x,y);
+        }else if(randomIndex >= 33 && randomIndex<66){
+            return new EnemyExamen(myAssetsManager.enemyCircle,100,100,x,150);
         }
         return null;
     }

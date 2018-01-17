@@ -37,14 +37,11 @@ public class RTypeGame extends Game {
 
 		myAssetsManager = new AssetsManager();
 
-
-
 		Background = new GameObject(myAssetsManager.background);
 		stage.addActor(Background);
 
 		myPlayer = new Player(myAssetsManager.player,myAssetsManager.bullet);
 		stage.addActor(myPlayer);
-
 
 
 		myEnemyManager = new EnemyManager(myAssetsManager, stage);

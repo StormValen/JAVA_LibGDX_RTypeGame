@@ -16,7 +16,4 @@ public class AssetsManager {
     public Texture background = new Texture("Background.jpg");
     public Texture player = new Texture("EnemyCircle.gif");
     public Texture bullet = new Texture("_Bullet.png");
-
-
-
 }

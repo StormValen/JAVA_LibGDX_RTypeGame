@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\vgutierrez\\Documents\\GitHub\\Java_LibGDX_RTypeGame\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\vgutierrez\\Documents\\GitHub\\Java_LibGDX_RTypeGame\\android\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Valen\\Desktop\\libGDXgame_2\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\Valen\\Desktop\\libGDXgame_2\\android\\res\\drawable-hdpi\\ic_launcher.png"
     }
